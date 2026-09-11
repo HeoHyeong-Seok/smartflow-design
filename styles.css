@@ -281,3 +281,8 @@ input:focus, select:focus, textarea:focus { outline:3px solid rgba(29,44,255,.10
     white-space: normal;
   }
 }
+/* 회사소개 제목 크기 조정 */
+#about .section-title {
+  font-size: 38px !important;
+  line-height: 1.25 !important;
+}
