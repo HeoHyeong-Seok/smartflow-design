@@ -257,3 +257,20 @@ input:focus, select:focus, textarea:focus { outline:3px solid rgba(29,44,255,.10
   #artwork .artwork-intro { max-width: none; }
   #artwork .artwork-intro p { font-size: 16px; }
 }
+/* 메인 제목 글자 크기 조정 */
+.hero-copy h1 {
+  font-size: 42px !important;
+  line-height: 1.2 !important;
+}
+
+.hero-copy h1 strong {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+/* 휴대폰 */
+@media (max-width: 768px) {
+  .hero-copy h1 {
+    font-size: 32px !important;
+  }
+}
