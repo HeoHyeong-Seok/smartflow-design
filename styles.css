@@ -259,18 +259,25 @@ input:focus, select:focus, textarea:focus { outline:3px solid rgba(29,44,255,.10
 }
 /* 메인 제목 글자 크기 조정 */
 .hero-copy h1 {
-  font-size: 28px !important;
+  font-size: 34px !important;
   line-height: 1.25 !important;
-  }
+}
 
 .hero-copy h1 strong {
-  font-size: inherit !important;
-  line-height: inherit !important;
+  font-size: 28px !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.03em;
+  white-space: nowrap;
 }
 
 /* 휴대폰 */
 @media (max-width: 768px) {
   .hero-copy h1 {
     font-size: 32px !important;
+  }
+
+  .hero-copy h1 strong {
+    font-size: 32px !important;
+    white-space: normal;
   }
 }
