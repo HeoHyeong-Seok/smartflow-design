@@ -261,8 +261,7 @@ input:focus, select:focus, textarea:focus { outline:3px solid rgba(29,44,255,.10
 .hero-copy h1 {
   font-size: 28px !important;
   line-height: 1.25 !important;
-  letter-spacing: -0.02em;
-}
+  }
 
 .hero-copy h1 strong {
   font-size: inherit !important;
