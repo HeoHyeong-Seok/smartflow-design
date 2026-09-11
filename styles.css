@@ -259,8 +259,8 @@ input:focus, select:focus, textarea:focus { outline:3px solid rgba(29,44,255,.10
 }
 /* 메인 제목 글자 크기 조정 */
 .hero-copy h1 {
-  font-size: 34px !important;
-  line-height: 1.2 !important;
+  font-size: 32px !important;
+  line-height: 1.25 !important;
 }
 
 .hero-copy h1 strong {
